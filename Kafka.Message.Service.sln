@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F0884706-29D2-49F6-A488-1FB8F8A259B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CA7D4DE8-0340-4964-B8A4-2814BB47ECC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Authorization", "src\Kafka.Authorization\Kafka.Authorization.csproj", "{F5285F04-5ADA-4049-854C-80456DE13F7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Message.Service.Consumer", "src\Kafka.Message.Service.Consumer\Kafka.Message.Service.Consumer.csproj", "{4FCEC847-E070-43AB-B63F-D6A53CDD7D50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Message.Service.Producer", "src\Kafka.Message.Service.Producer\Kafka.Message.Service.Producer.csproj", "{F3483E68-AC89-4B51-BD67-CD35842F73A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Message.Producer.Client", "test\Kafka.Message.Producer.Client\Kafka.Message.Producer.Client.csproj", "{4EE26DEF-C41D-4C97-99A6-FA1E144F76F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Message.Consumer.Client", "test\Kafka.Message.Service.Consumer.Client\Kafka.Message.Consumer.Client.csproj", "{1CE102F3-79F5-40BA-B74D-5824B87CF0A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5285F04-5ADA-4049-854C-80456DE13F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5285F04-5ADA-4049-854C-80456DE13F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5285F04-5ADA-4049-854C-80456DE13F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5285F04-5ADA-4049-854C-80456DE13F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCEC847-E070-43AB-B63F-D6A53CDD7D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCEC847-E070-43AB-B63F-D6A53CDD7D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCEC847-E070-43AB-B63F-D6A53CDD7D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCEC847-E070-43AB-B63F-D6A53CDD7D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3483E68-AC89-4B51-BD67-CD35842F73A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3483E68-AC89-4B51-BD67-CD35842F73A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3483E68-AC89-4B51-BD67-CD35842F73A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3483E68-AC89-4B51-BD67-CD35842F73A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE26DEF-C41D-4C97-99A6-FA1E144F76F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE26DEF-C41D-4C97-99A6-FA1E144F76F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE26DEF-C41D-4C97-99A6-FA1E144F76F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE26DEF-C41D-4C97-99A6-FA1E144F76F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE102F3-79F5-40BA-B74D-5824B87CF0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE102F3-79F5-40BA-B74D-5824B87CF0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE102F3-79F5-40BA-B74D-5824B87CF0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE102F3-79F5-40BA-B74D-5824B87CF0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5285F04-5ADA-4049-854C-80456DE13F7B} = {F0884706-29D2-49F6-A488-1FB8F8A259B5}
+		{4FCEC847-E070-43AB-B63F-D6A53CDD7D50} = {F0884706-29D2-49F6-A488-1FB8F8A259B5}
+		{F3483E68-AC89-4B51-BD67-CD35842F73A7} = {F0884706-29D2-49F6-A488-1FB8F8A259B5}
+		{4EE26DEF-C41D-4C97-99A6-FA1E144F76F0} = {CA7D4DE8-0340-4964-B8A4-2814BB47ECC6}
+		{1CE102F3-79F5-40BA-B74D-5824B87CF0A3} = {CA7D4DE8-0340-4964-B8A4-2814BB47ECC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A1243C1-BAB5-4782-A63D-4D148DDC6619}
+	EndGlobalSection
+EndGlobal
