@@ -9,7 +9,7 @@
 	  <FileVersion>2.4.0.0</FileVersion>
 	  <PackageVersion>2.4.0.0</PackageVersion>
 	  <PackageVersion>2.4.0.0</PackageVersion>
-	  <CodeAnalysisRuleSet>..\..\.sonarlint\spinnextgen_messagingservicecsharp.ruleset</CodeAnalysisRuleSet>
+	  
   </PropertyGroup>
 
   <ItemGroup>
