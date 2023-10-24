@@ -22,11 +22,11 @@ ConsumerConfig GetConsumerConfig()
 {
     return new ConsumerConfig
     {
-        BootstrapServers = $"pkc-mz3gw.westus3.azure.confluent.cloud:9092",
+        BootstrapServers = $"test.westus3.azure.confluent.cloud:9092",
         SecurityProtocol = SecurityProtocol.SaslSsl,
         SaslMechanism = SaslMechanism.Plain,
-        SaslUsername = "6SRJBQY7NCMGCYHC",
-        SaslPassword = "RGrWrbR5Y0cywlLAeeZO79UwSkMDBH/ZmTqzM0H2ByXdvECe57F8OoAqFEkH22xE",
+        SaslUsername = "test",
+        SaslPassword = "test",
         GroupId = "test",
         AutoOffsetReset = AutoOffsetReset.Earliest
     };
