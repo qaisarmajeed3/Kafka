@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <CodeAnalysisRuleSet>..\..\.sonarlint\spinnextgen_messagingservicecsharp.ruleset</CodeAnalysisRuleSet>
+    
   </PropertyGroup>
 
   <ItemGroup>
